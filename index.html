@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      
+      <h1 id="dg_title">Dicee Game</h1>
+      <div class="invisible" id="scoreboard">
+        <label  id= "player1_lbl">Player1</label>
+        <span class="point" id="player1_scr">0</span>
+        <label >Score</label>
+        <span class="point" id="Score">0</span>
+        <label id= "player2_lbl">Player2</label>
+        <span class="point" id="player2_scr">0</span>
+      </div>
+
+      <div class="dice">
+        <img id="img1" src="">
+        <img id="img2" src="">
+      </div>
+      <button id="play_btn" onclick="loadNameEntry()">Play</button>
+      <button id="roll_btn" class="invisible" onclick="roll()">🎲 Roll! 🎲</button><br><br>
+      <button id="reset_btn" class="invisible" onclick="resetGame()">Reset Game</button>
+
+      <div id="entry" class="invisible">
+        <label for="player1_name">Player1 Name: </label>
+        <input id="player1_name" value="player1"><br><br>
+        <label for="player2_name">Player2 Name: </label>
+        <input id="player2_name" value="player2"><br>
+        <button id="start" onclick="initGame()">Start!</button>
+      </div>
+
+    </div>
+    
+    <script src="js/index.js"></script>
+    
+  </body>
+  <footer>
+    www 🎲 ilkeratik 🎲 com
+  </footer>
+</html>
