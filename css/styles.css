@@ -42,16 +42,12 @@ button{
 
 button:hover {
   background-color: #f07b3f;
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 #reset_btn{
   padding: 5px 10px 5px;
   font-size: 0.9rem;
-}
-
-#roll_btn, #play_btn{
-  background-color: #521262;
 }
 
 footer {
@@ -79,7 +75,7 @@ footer {
 }
 
 #scoreboard span{
-  background-color: #393E46;
+  background-color: #252a34;
   padding: 10px;
 }
 
